@@ -1,1 +1,54 @@
 /* THIS TEMPLATE IS PROVIDED FOR EXTERNAL STYLE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head li{
+    margin: 10px;
+}
+
+.head li a:hover, .head li a:focus{
+    color: #e27225;
+}
+
+.head li a{
+    color: #fff;
+}
+
+.dropdown-toggle::after{
+    color: #e27225;
+}
+
+.drop1:hover{
+    background-color: blue;
+}
+
+.drop2:hover{
+    background-color: grey;
+}
+
+.drop3:hover{
+    background-color: lightblue;
+}
+
+.drop4:hover{
+    background-color: skyblue;
+}
+
+.drop5:hover{
+    background-color: red;
+}
+
+.drop6:hover{
+    background-color: green;
+}
+
+.drop7:hover{
+    background-color: lightgreen;
+}
+
+.drop8:hover{
+    background-color: purple;
+}
