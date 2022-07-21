@@ -52,3 +52,22 @@
 .drop8:hover{
     background-color: purple;
 }
+
+.list li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.list li:after{
+    content: '|';
+}
+
+.list a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.copyright{
+    font-size: 12px;
+}
