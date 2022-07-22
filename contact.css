@@ -1,0 +1,73 @@
+*{
+   
+}
+
+.pic{
+    background-image: url(/constru.jpg);
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0px 0px 100px 0px;
+}
+
+.intro{
+    background: rgb(233, 151, 0);
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.nav{
+    display: inline;
+}
+
+.nav >li>a{
+    color: black;
+    padding: 40px;
+    font-size: 25px;
+    margin: 30px;
+    text-decoration: none;
+    
+
+}
+
+.nav >li>a:hover{
+    color: rgb(233, 151, 0);
+    transition: all 0.5s;
+}
+
+.group{
+    padding-right: 30px;
+}
+
+.group >h2{
+    font-size: 35px;
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+    
+}
+.wrap div{
+    margin: 10px;
+}
+
+
