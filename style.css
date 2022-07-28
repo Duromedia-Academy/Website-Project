@@ -63,11 +63,131 @@
 }
 
 .list a{
-    margin-right: 10px;
+    margin-right: 15px;
     text-decoration: none;
     font-size: 12px;
 }
 
 .copyright{
     font-size: 12px;
+}
+
+/* .top-nav{
+    width: 100%;
+    top: calc(100% - 91px);
+} */
+
+.main{
+    background-image: linear-gradient(rgba(17, 36, 90, 0.6), rgba(17, 36, 90, 0.6)), url(./assest/forwarding-back.jpg); 
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.big-logo{
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.links li{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.links li::before {
+    content: "\02580";  
+    color: #fff;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+  }
+
+.links{
+    position: fixed;
+    top: 25%;
+}
+
+.links li a{
+    color: white;
+    text-decoration: none;
+    top: -4px;
+    position: relative;
+    transition: all .1s ease-in;
+}
+
+.links li a:hover{
+    margin-left: 2px;
+    transition: all .1s ease-out;
+}
+
+.click{
+    border: 1px solid #e27225;
+    padding: 10px 20px;
+}
+
+.main{
+    height: 100vh;
+}
+
+.conpact1 img{
+    width: 100%;
+    height: 100vh;
+}
+
+.conpact{
+    height: 100vh;
+}
+
+.conpact2{
+    background-image: url(./assest/dark\ blue.png);
+}
+
+.flowed{
+    position: relative;
+    top: 25%;
+}
+
+.flowed img{
+    position: relative;
+    right: 45%;
+}
+
+.flowed button{
+    position: relative;
+    left: -83px;
+}
+
+#sachol .conpact2{
+    background-image: url(./assest/grey.png);
+}
+
+#offdock .conpact2{
+    background-image: url(./assest/semi\ ligh\ blue.png);
+}
+
+#shipping .conpact2{
+    background-image: url(./assest/light\ blue.png);
+}
+
+#haulage .conpact2{
+    background-image: url(./assest/red.png);
+}
+
+#forwading .conpact2{
+    background-image: url(./assest/http-e574f813d17db.png);
+}
+
+#oil .conpact2{
+    background-image: url(./assest/green.png);
+}
+
+#marine .conpact2{
+    background-image: url(./assest/pink.png);
+}
+
+.marine-end{
+    height: 100vh;
 }
