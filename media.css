@@ -1,0 +1,20 @@
+.media-hero-section{
+    display:flex;
+    min-width: 200px;
+    
+    
+}
+.media-hero-content{
+    background-color: rgb(187, 90, 10);
+    width: 100%;
+    padding: 150px 0px 20px 50px;
+
+}
+.media-hero-content a{
+    text-decoration: none;
+    color: white;
+}
+.media-hero-content h1{
+    color: white;
+    font-size: 50px;
+}

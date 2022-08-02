@@ -1,32 +1,23 @@
-*{
-   
-}
 
-.pic{
-    background-image: url(/constru.jpg);
-}
 
-.banner{
+/* .banner{
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 0px 0px 100px 0px;
 }
 
-.intro{
-    background: rgb(233, 151, 0);
-    padding: 30px;
+
+.pic >img{
+    width: 100%;
 }
 
 
 
-
-
-
-
-
-
-
-
+.intro{
+    background: rgb(206, 134, 0);
+    padding: 80px;
+    color: aliceblue;
+}
 
 .content{
     display: grid;
@@ -70,4 +61,17 @@
     margin: 10px;
 }
 
+ */
 
+ .wth{
+    width: 100%;
+ }
+
+ .clr{
+    background-color: #e27225;
+    ;
+ }
+
+ .mag{
+    margin-top: 68px;
+ }
